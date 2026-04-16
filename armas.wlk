@@ -4,7 +4,7 @@ object ballesta {
 
   method esta_cargada(){return flechas > 0}
 
-  method usar_ballesta(){flechas =-1}
+  method usar_arma(){flechas =-1}
 
 }
 
@@ -13,5 +13,5 @@ object jabalina{
 
   method potencia()= 30
   
-  method usar_ballesta(){esta_cargada = false}
+  method usar_arma(){esta_cargada = false}
 }
